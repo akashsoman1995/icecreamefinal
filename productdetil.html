@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+    <div class="containerr">
+        <div class="navbar">
+            <div class="logo">
+                <img src="download.png" alt="" width="125px">
+
+            </div>
+            <nav>
+             <ul class="menu">
+                 <li><a  href="index.html"class="">Home</a></li>
+                 
+                 
+                 <li><a href="">Contact</a></li>
+                 <li><a href="#ftr">About</a></li>
+                 <li><a href="login.html">Account</a></li>
+             </ul>    
+            </nav>
+           <a href="cart.html"> <img src="cart.png" alt="" height="30px" width="30px"></a>
+           <img src="menu.png" alt="" id="check" class="toogle-logo" width="30px" height="30px" >
+        </div>
+        
+
+    </div>
+</div>
+
+<!----------page------------------->
+
+<div class="small-container single-product">
+<div class="row">
+    <div class="col-2">
+      <img src="pic/mango.png" alt="" width="100%">
+    </div>
+    <div class="col-2">
+        <p>Home / Icecreame</p>
+        <h1>Mango</h1>
+        <h4>$150</h4>
+        <input type="number" value="1" class="hrx">
+        <a href="" class="btn">Add To Cart</a>
+        <h3>Product Details</h3>
+        <p>Mango mansoon with pool of saliva</p>
+    </div>
+</div>
+</div>
+
+
+
+<div class="small-container">
+    
+   
+        <div class="row">
+        <div class="col-4">
+            <img src="pic/butterscotch.png" alt="">
+            <h4>Butter scotch</h4>
+            <p>$150.00</p>
+        </div>
+        <div class="col-4">
+            <img src="pic/black-current.png" alt="">
+            <h4>Blackcurrent</h4>
+            <p>$150.00</p>
+        </div>
+        <div class="col-4">
+            <img src="pic/chclate.png" alt="">
+            <h4>Chocolate</h4>
+            <p>$150.00</p>
+        </div>
+        <div class="col-4">
+            <img src="pic/chikoo.png" alt="">
+            <h4>Chikkoo</h4>
+            <p>$150.00</p>
+        </div>
+    </div>
+    
+</div>
+<!---------------------------footter-------------------------------->
+<div  id="ftr" class="footer">
+    <div class="containerr">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>useful links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>blog post</li>
+                    <li>return policy</li>
+                    <li>join affliete</li>
+                </ul>
+            </div>
+            <div class="footer-col-2">
+                <h3>follow us</h3>
+                <ul>
+                    <li>facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>You tube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - madhavam group of company</p>
+    </div>
+</div>
+<!-------js for menu-------->
+
+<script>
+    let togglelogo= document.querySelector('.toogle-logo')
+    let menu = document.querySelector('.menu')
+
+    togglelogo.addEventListener('click',function(){
+        menu.classList.toggle('is-active')
+    })
+</script>
+
+    
+    
+
+
+
+
+</body>
+</html>

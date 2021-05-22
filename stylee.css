@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: transform 1s;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #b9910e;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 12px;
+    border-radius: 5px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #b9910e;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 12px;
+    border-radius: 5px;
+
+}
+
+
+
+nav ul li a.active,nav ul li  a:hover{
+    background:#000a;
+    transition: 0.5s;
+
+}
+
+p{
+    color: #b9910e;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 1px 0;
+    
+}
+
+.col-2 h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin: 25px;
+}
+.col-2 p{
+    font-size: 14px;
+    margin: 25px;
+}
+.btn{
+    display: inline-block;
+    background:#b9910e ;
+    color: #fff;
+    padding: 6px 15px;
+    margin: 3px 25px ;
+    border-radius: 30px;
+    transition: 0.3s;
+
+
+
+}
+
+.btn:hover{
+    background:#563434 ;
+}
+.header{
+    background: radial-gradient(#fff,  );
+}
+
+.orders{
+    margin: 25px 0;
+    text-align: center;
+    background: #f8f9fa;
+    padding: 75px;
+}
+.orders h2{
+    padding: 80px;
+    color: #b9910e;
+}
+
+.col-6{
+    flex-basis: 30%;
+    min-width: 300px;
+   margin-bottom: 30px;
+   text-align: center;
+   transition: transform 0.5s;
+}
+.col-6 img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+.col-6:hover{
+    transform: translateY(-5px);
+}
+
+/*-------footer-----*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 40px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+    text-align: center;
+
+}
+.footer-col-2{
+   flex-basis: 12%;
+   text-align: center;
+}
+ul{
+    list-style-type: none;
+
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.toogle-logo{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+
+/***login page***/
+.account-page{
+    padding: 5px 0;
+    background: #fff;
+}
+.form-container{
+    background:#f8f9fa;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+    overflow: hidden;
+
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+
+     
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#LoginForm{
+    left: -300px;
+
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 10px;
+}
+#indicator{
+    width: 100px;
+    border: none;
+    background: #b9910e;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+
+/*----  for product category---*/
+
+.container h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.row{
+    padding: 30px;
+}
+
+.row ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px 12px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.row ul li{
+    display: inline-block;
+    
+    margin-right: 10px;
+}
+/*----product scond try----*/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.containerr{
+    width: 100%;
+    height: 100vh;
+    background-color:#f8f9fa ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+}
+.model{
+    height: px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*------media query 800 px------*/
+@media  (max-width:767px){
+    .navbar .toggle-logo{
+        display: block;
+    }
+
+    
+    
+    
+   .navbar nav .menu{
+        transform: translateX(-100%);
+        transition: transform ease 0.5s;
+    } 
+    .navbar nav .menu{
+        width: 100%;
+        background: #000;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 70px;
+        display: block;
+        color: #f8f9fa;
+        align-items: center;
+
+
+    }
+    
+     .navbar nav .menu li {
+        
+        font-size: 20px;
+        
+        display: block;
+        padding: 10px 5px;
+        
+
+    }
+    .navbar nav .menu li a{
+        font-size: 15px;
+        
+    }
+    
+    
+   .menu li a.active,.menu li a:hover{
+        background:none;
+        color: #f8f9fa;
+        }
+    
+    
+    .toogle-logo{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar .menu.is-active{
+        transform: translateX(0%);
+    }
+}
+
+    
+    
+
+
+/*------media query 600 px------*/

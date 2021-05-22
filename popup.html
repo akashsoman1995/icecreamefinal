@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="popup ">
+        <div class="icon">
+            <i class="fa fa-check"></i>
+        </div>
+        <div class="title">
+            Order placed
+        </div>
+        <div class="discribtion">
+            <p>clike ok to continue shopeing</p>
+        </div>
+        <div class="dissmiss">
+           <a href="index.html"> <button id="disbtn">
+                OK
+            </button></a>
+
+        </div>
+
+    </div>
+
+    <div class="checkout">
+        <button id="chkut">
+            chk
+        </button>
+    </div>
+
+
+
+    <script>
+       
+
+    let checkout= document.querySelector('.checkout')
+    let popup = document.querySelector('.popup')
+
+    checkout.addEventListener('click',function(){
+        popup.classList.add('aactive')
+    })
+
+
+    </script>
+</body>
+</html>

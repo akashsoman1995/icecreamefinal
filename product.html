@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ice creame factory</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="download.png" alt="" width="125px"></a>
+
+            </div>
+            <nav>
+             <ul class="menu">
+                 <li><a  href="index.html"class="">Home</a></li>
+                 
+                 <li><a href="#ordering">Order</a></li>
+                 <li><a href="">Contact</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Account</a></li>
+             </ul>    
+            </nav>
+           <a href=""> <img src="cart.png" alt="" height="30px" width="30px"></a>
+           <img src="menu.png" alt="" id="check" class="toogle-logo" width="30px" height="30px" >
+        </div>
+        
+
+    </div>
+
+
+<!-----product category-------------------->
+<div class="containerr">
+    <div class="box">
+        
+        <img src="bulk.jpg" alt="" class="model">
+        <h3>Bulk</h3>
+
+    </div>
+</div>
+
+
+<!---------------------------footter-------------------------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>useful links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>blog post</li>
+                    <li>return policy</li>
+                    <li>join affliete</li>
+                </ul>
+            </div>
+            <div class="footer-col-2">
+                <h3>follow us</h3>
+                <ul>
+                    <li>facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>You tube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - madhavam group of company</p>
+    </div>
+</div>
+<!-------js for menu-------->
+
+<script>
+    let togglelogo= document.querySelector('.toogle-logo')
+    let menu = document.querySelector('.menu')
+
+    togglelogo.addEventListener('click',function(){
+        menu.classList.toggle('is-active')
+    })
+</script>
+
+<!------js for toggle form------>
+
+
+    
+    
+
+
+
+
+</body>
+</html>
